@@ -6,6 +6,7 @@
     "git.autofetch": false,
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
     "files.autoSave": "onFocusChange",
     "workbench.colorTheme": "Cobalt2",
     "files.trimTrailingWhitespace": true,
