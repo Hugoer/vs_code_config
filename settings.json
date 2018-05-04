@@ -6,7 +6,7 @@
     "git.autofetch": false,
     "workbench.colorTheme": "Cobalt2",
     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 17,
+    "editor.fontSize": 15,
     "editor.lineHeight": 25,
     "editor.letterSpacing": 0.5,
     "files.trimTrailingWhitespace": true,
