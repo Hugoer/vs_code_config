@@ -1,9 +1,4 @@
 {
-    "git.enabled": false,
-    // Path to the git executable
-    "git.path": null,
-    // Whether auto fetching is enabled.
-    "git.autofetch": false,
     "workbench.colorTheme": "Cobalt2",
     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 15,
@@ -12,7 +7,6 @@
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
     "editor.fontWeight": "400",
     // this isn't really underline-thin but we hack it to be a thicker cursor
     "editor.cursorStyle": "underline-thin",
@@ -22,13 +16,13 @@
     "editor.formatOnSave": true,
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
         "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
         "**/bower_components": true,
-        "**/node_modules": false
+        "**/CVS": true,
+        "**/node_modules": true
     },
     "workbench.iconTheme": "vs-seti",
     "window.zoomLevel": 0,
@@ -370,5 +364,15 @@
     },
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
     "workbench.panel.location": "bottom",
-    "typescript.autoImportSuggestions.enabled": false
+    "typescript.autoImportSuggestions.enabled": false,
+    "tslint.run": "onSave",
+    "tslint.autoFixOnSave": true,
+    "tslint.trace.server": "verbose",
+    "git.autofetch": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true
 }
