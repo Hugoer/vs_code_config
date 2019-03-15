@@ -372,7 +372,11 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "breadcrumbs.enabled": true,
-    "javascript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "typescript.referencesCodeLens.enabled": true
+    "javascript.referencesCodeLens.enabled": false,
+    "typescript.implementationsCodeLens.enabled": false,
+    "typescript.referencesCodeLens.enabled": false,
+    "css.lint.zeroUnits": "warning",
+    "css.lint.universalSelector": "warning",
+    "css.lint.importStatement": "warning",
+    "css.lint.duplicateProperties": "warning"
 }
