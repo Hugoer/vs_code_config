@@ -415,9 +415,6 @@
     "jshint.options": {
         "esversion": 6
     },
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    "workbench.panel.location": "bottom",
-    "typescript.autoImportSuggestions.enabled": false,
     "tslint.run": "onSave",
     "tslint.autoFixOnSave": true,
     "tslint.trace.server": "verbose",

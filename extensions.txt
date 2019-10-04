@@ -1,0 +1,8 @@
+Angular Languae Service
+Cobalt2 Theme Official (Wes Bos)
+CSSComb
+jshint
+TSLint
+lit-html
+LitElement Snippets (https://github.com/Victor-Bernabe/litelement-snippets)
+Git History
