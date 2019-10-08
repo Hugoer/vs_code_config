@@ -415,6 +415,7 @@
     "jshint.options": {
         "esversion": 6
     },
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
     "tslint.run": "onSave",
     "tslint.autoFixOnSave": true,
     "tslint.trace.server": "verbose",
@@ -428,5 +429,11 @@
     "css.lint.zeroUnits": "warning",
     "css.lint.universalSelector": "warning",
     "css.lint.importStatement": "warning",
-    "css.lint.duplicateProperties": "warning"
+    "css.lint.duplicateProperties": "warning",
+    "lit-html.format.enabled": false,
+    "lit-html.tags": [
+        "html",
+        "raw",
+        "template"
+    ]
 }
