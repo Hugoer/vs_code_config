@@ -1,6 +1,6 @@
 Angular Languae Service
 Cobalt2 Theme Official (Wes Bos)
-CSSComb
+CSSComb (https://marketplace.visualstudio.com/items?itemName=naumstory.vscode-csscomb)
 jshint
 TSLint
 lit-html
