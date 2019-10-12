@@ -2,9 +2,9 @@ Angular Languae Service
 Cobalt2 Theme Official (Wes Bos)
 CSSComb (https://marketplace.visualstudio.com/items?itemName=naumstory.vscode-csscomb)
 Git History
-lit-html
-Spanish Language Pack for Visual Studio Code
 jshint
-TSLint
 LitElement Snippets (https://github.com/Victor-Bernabe/litelement-snippets)
-
+lit-html
+lit-plugin
+Spanish Language Pack for Visual Studio Code
+TSLint
