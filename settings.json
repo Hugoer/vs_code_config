@@ -27,7 +27,6 @@
     "workbench.iconTheme": "vs-seti",
     "window.zoomLevel": 0,
     "csscomb.formatOnSave": true,
-    "csscomb.useLatestCore": true,
     "csscomb.syntaxAssociations": {
         "sass": "scss",
         "postcss": "scss"
@@ -416,9 +415,6 @@
         "esversion": 6
     },
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    "tslint.run": "onSave",
-    "tslint.autoFixOnSave": true,
-    "tslint.trace.server": "verbose",
     "git.autofetch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
@@ -435,5 +431,7 @@
         "html",
         "raw",
         "template"
-    ]
+    ],
+    "lit-plugin.rules.no-incompatible-type-binding": "off",
+    "lit-plugin.rules.no-nullable-attribute-binding": "off"
 }
