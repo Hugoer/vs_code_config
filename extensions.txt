@@ -3,6 +3,7 @@ Cobalt2 Theme Official (Wes Bos)
 CSSComb (https://marketplace.visualstudio.com/items?itemName=naumstory.vscode-csscomb)
 Git History
 jshint
+eslint
 LitElement Snippets (https://github.com/Victor-Bernabe/litelement-snippets)
 lit-html
 lit-plugin
