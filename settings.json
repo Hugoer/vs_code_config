@@ -13,8 +13,8 @@
     "editor.cursorBlinking": "blink",
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": true,
-    "editor.formatOnSave": true,
     "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -26,7 +26,6 @@
     },
     "workbench.iconTheme": "vs-seti",
     "window.zoomLevel": 0,
-    "csscomb.formatOnSave": true,
     "csscomb.syntaxAssociations": {
         "sass": "scss",
         "postcss": "scss"
@@ -410,11 +409,21 @@
             ],
         ]
     },
-    "typescript.check.tscVersion": true,
-    "jshint.options": {
-        "esversion": 6
-    },
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "phpfmt.php_bin": "C:\\xampp\\php\\php.exe",
+    "phpfmt.passes": [
+        "PSR2KeywordsLowerCase",
+        "PSR2LnAfterNamespace",
+        "PSR2CurlyOpenNextLine",
+        "PSR2ModifierVisibilityStaticOrder",
+        "PSR2SingleEmptyLineAndStripClosingTag",
+        "ReindentSwitchBlocks"
+    ],
+    "phpfmt.exclude": [
+        "ReindentComments",
+        "StripNewlineWithinClassBody"
+    ],
+    "phpfmt.psr2": false,
     "git.autofetch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
@@ -433,5 +442,7 @@
         "template"
     ],
     "lit-plugin.rules.no-incompatible-type-binding": "off",
-    "lit-plugin.rules.no-nullable-attribute-binding": "off"
+    "lit-plugin.rules.no-nullable-attribute-binding": "off",
+    "csscomb.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
