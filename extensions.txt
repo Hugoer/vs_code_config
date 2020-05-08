@@ -9,3 +9,4 @@ lit-plugin
 Spanish Language Pack for Visual Studio Code
 TSLint
 https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+editorconfig
