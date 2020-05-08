@@ -444,5 +444,9 @@
     "lit-plugin.rules.no-incompatible-type-binding": "off",
     "lit-plugin.rules.no-nullable-attribute-binding": "off",
     "csscomb.formatOnSave": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+    
+    }
 }
